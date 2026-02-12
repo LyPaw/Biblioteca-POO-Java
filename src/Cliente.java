@@ -5,13 +5,6 @@ import java.util.Scanner;
 @Getter
 @Setter
 
-
-
-
-
-
-
-
 public class Cliente {
     String nombre;
     String apellido;
@@ -21,7 +14,6 @@ public class Cliente {
 
     public Cliente() {}
 
-
     @Override
     public String toString() {
         return "||Nombre: " + nombre +
@@ -29,9 +21,7 @@ public class Cliente {
                 " ||Email: " + email +
                 " ||Telefono: " + telefono +
                 " ||Direccion: " + direccion;
-
     }
-
 
     public void insertarDatosCliente(Scanner sc){
         System.out.print("Ingrese el nombre del cliente: ");
